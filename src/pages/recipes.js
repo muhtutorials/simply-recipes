@@ -1,10 +1,10 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-export default function About() {
-      return (
+export default function Recipes() {
+    return (
         <Layout>
-            <h1>About</h1>
+            <h1>Recipes</h1>
         </Layout>
     );
 }
