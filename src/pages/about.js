@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import Layout from '../components/Layout';
 
 export default function About() {
-      return (
+    return (
         <Layout>
             <main className="page">
                 <section className="about-page">
