@@ -27,12 +27,12 @@ export default function NavBar() {
                         Home
                     </Link>
                     <Link
-                        to="/about"
+                        to="/recipes"
                         className="nav-link"
                         activeClassName="active-link"
                         onClick={() => setShow(false)}
                     >
-                        About
+                        Recipes
                     </Link>
                     <Link
                         to="/tags"
@@ -43,12 +43,12 @@ export default function NavBar() {
                         Tags
                     </Link>
                     <Link
-                        to="/recipes"
+                        to="/about"
                         className="nav-link"
                         activeClassName="active-link"
                         onClick={() => setShow(false)}
                     >
-                        Recipes
+                        About
                     </Link>
                     <div className="nav-link contact-link">
                         <Link to="/contact" className="btn">Contact</Link>

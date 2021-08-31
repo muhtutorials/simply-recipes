@@ -1,10 +1,13 @@
 import React from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import Layout from '../components/Layout';
+import Gallery from '../components/Gallery';
+import SEO from '../components/SEO';
 
 export default function Home() {
     return (
         <Layout>
+            <SEO title="Home" />
             <main className="page">
                 <header className="hero">
                     <StaticImage
@@ -21,6 +24,7 @@ export default function Home() {
                         </div>
                     </div>
                 </header>
+                <Gallery />
             </main>
         </Layout>
     );
